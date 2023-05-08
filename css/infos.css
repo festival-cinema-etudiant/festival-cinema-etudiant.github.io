@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+
+
+#billeterieBtn{
+    background-color: #8FA099;
+}
+.navbar{
+    background-color: whitesmoke;
+}
+
+#boxes{
+    background-color: #8FA099;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+
+}
+.box{
+    box-shadow: unset;
+    background-color: transparent;
+    width: 33%;
+
+}
+
+
+.title, .subtitle, .subtitle a {
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+    
+    }
+    .box{
+        width: auto;
+    }
+}

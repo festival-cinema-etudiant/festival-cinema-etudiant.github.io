@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+
+
+#billeterieBtn{
+    background-color: #8FA099;
+}
+.navbar{
+    background-color: whitesmoke;
+}
+
+#boxes{
+    background-color: #8FA099;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.asso_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+
+}
+.box{
+    height: 200px;
+    box-shadow: unset;
+    background-color: transparent;
+
+}
+#kino img{
+    background-color: black;
+}
+.box img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.title, .subtitle{
+    text-align: center;
+    color: white;
+}

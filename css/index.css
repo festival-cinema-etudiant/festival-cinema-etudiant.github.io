@@ -1,0 +1,158 @@
+#billeterieBtn{
+  background-color: #8FA099;
+}
+.navbar{
+  background-color: whitesmoke;
+}
+
+/*******SLIDESHOW************/
+#slideshow{
+  margin-bottom: 2%;
+  height: 400px;
+}
+.mySlides {
+  display:none;
+  height: 100%;
+}
+.mySlides img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+.movieName{
+  font-size: 2.2vw;
+  text-shadow:1px 1px 0 #444;
+  width: 100%;
+  background-color: rgb(143 160 153 / 0.6);
+  padding: 1%;
+  padding-left: 4%;
+}
+.nextBtn {
+  font-size: 2.2vw;
+  padding: 1%;
+  padding-right: 4%;
+}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+/*******************/
+
+
+/*******ARTICLE************/
+#boxContainer{
+  background-color: #D9D9D8;
+  width: 100%;
+}
+#box1{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.boxInfo{
+  color: white;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-size: 3vw;
+  font-weight: bold;
+}
+#box1 img{
+  width:100%;height:350px;object-fit:cover;
+}
+.boxTitle{
+  background-color: #8FA099;
+  text-align: center;
+  width: 100%;
+  height: 2%;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 4vw;
+}
+
+/***COUNTER***/
+#box2{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#box2 #countdown{
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+#countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  visibility: visible;
+  font-weight: bold;
+  text-align: center;
+}
+.countdown-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+}
+.countdown-amount {
+  font-size: 5vw;
+  font-weight: bold;
+  color: #8FA099;
+  margin-bottom: 0.5rem;
+}
+.countdown-period {
+  font-size: 2vw;
+  color: #8FA099;
+
+}
+#trailer{
+  margin-top: 2%;
+}
+#trailer video{
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+
+/*******/
+/*******************/
+
+
+/********SMALL SCREEN********/
+@media screen and (max-width: 700px) {
+  .movieName{
+    font-size: 5.5vw;
+  }
+  .nextBtn {
+    font-size: 5.5vw;
+  }
+  .boxTitle{
+    font-size: 8vw;
+  }
+  .boxInfo{
+    font-size: 6vw;
+  }
+  #box1 img{
+    height:200px;object-fit:cover;
+  }
+  #box1{
+    margin-bottom: 10px;
+  }
+  .countdown-amount{
+    font-size: 10vw;
+  }
+  .countdown-period{
+    font-size: 4vw;
+  }
+  #box2 #countdown{
+    height: 200px;
+  }
+  #slideshow{
+    height: 200px;
+  }
+  #trailer video{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+}
