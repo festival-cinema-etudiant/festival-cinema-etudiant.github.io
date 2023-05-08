@@ -149,7 +149,7 @@
   #slideshow{
     height: 200px;
   }
-  #trailer video{
+  #trailer #video{
     width: 100%;
     height: 250px;
     object-fit: cover;
